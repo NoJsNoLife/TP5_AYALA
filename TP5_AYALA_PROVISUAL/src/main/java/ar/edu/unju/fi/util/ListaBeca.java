@@ -22,3 +22,5 @@ public class ListaBeca {
 		this.becas = becas;
 	}
 }
+
+//ESTAS LISTAS YA NO SE UTILIZAN A PARTIR DE LA ULTIMA PARTE DEL TP5 "BASE DE DATOS"

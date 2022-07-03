@@ -23,3 +23,5 @@ public class ListaAlumno {
 		this.alumnos = alumnos;
 	}
 }
+
+//ESTAS LISTAS YA NO SE UTILIZAN A PARTIR DE LA ULTIMA PARTE DEL TP5 "BASE DE DATOS"
