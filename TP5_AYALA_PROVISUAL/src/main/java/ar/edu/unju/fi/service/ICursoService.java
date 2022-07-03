@@ -12,5 +12,4 @@ public interface ICursoService {
 	public void deleteCurso(int codigo);
 	public List<Curso> getCursos();
 	public Curso findByCodigo(int codigo);
-;
 }

@@ -10,6 +10,7 @@ import ar.edu.unju.fi.entity.Beca;
 
 @Repository
 public interface BecaRepository extends JpaRepository<Beca, Long>{
+	
 	@Query("delete from Beca b where b.codigo =?1")
 	public boolean deleteBecaByCodigo(int codigo);
 	

@@ -18,5 +18,4 @@ public interface DocenteRepository extends JpaRepository<Docente, Long> {
 	
 	@Query("select d from Docente d where d.dni = ?1")
 	public Docente findByDni(int dni);	
-	
 }

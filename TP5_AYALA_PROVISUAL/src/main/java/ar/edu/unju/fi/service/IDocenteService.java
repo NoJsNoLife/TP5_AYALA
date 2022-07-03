@@ -5,6 +5,7 @@ import java.util.List;
 import ar.edu.unju.fi.entity.Docente;
 
 public interface IDocenteService {
+	
 	public Docente getDocente();
 	public boolean saveDocente(Docente docente);
 	public void modifyDocente(Docente docente);
